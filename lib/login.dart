@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:peeka/Colors.dart';
-import 'package:peeka/Strings.dart';
+import 'package:peeka/appColors.dart';
+import 'package:peeka/strings.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'NotRegisteredPage.dart';
+import 'notRegistered.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
