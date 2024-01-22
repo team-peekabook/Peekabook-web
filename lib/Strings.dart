@@ -13,4 +13,7 @@ class Strings {
   static const String withdrawDescription =
       '서비스 탈퇴 시,\n사용자의 데이터는 복구되지 않습니다.\n사용자의 개인 정보는 \‘개인정보 보호방침\'에 따라\n일정 기간 보관 후 파기됩니다.';
   static const String withdrawButton = '탈퇴하기';
+  static const String withdrawDialogTitle = '서비스 탈퇴 완료';
+  static const String withdrawDialogContent = '이용해주셔서 감사합니다.';
+  static const String withdrawDialogConfirm = '확인';
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:peeka/colors.dart';
 import 'package:peeka/strings.dart';
+import 'package:peeka/withdrawDialog.dart';
 
 class WithdrawPage extends StatelessWidget {
   @override
@@ -36,7 +37,10 @@ class WithdrawPage extends StatelessWidget {
                   const Text(
                     Strings.withdrawDescription,
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 16, color: AppColors.red),
+                    style: TextStyle(
+                        fontSize: 16,
+                        color: AppColors.red,
+                        fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
@@ -46,6 +50,11 @@ class WithdrawPage extends StatelessWidget {
                 child: TextButton(
                   onPressed: () {
                     // TODO: deleteUser()
+                    showDialog(
+                      context: context,
+                      builder: (context) => WithdrawDialog(),
+                      barrierDismissible: false,
+                    );
                   },
                   style: TextButton.styleFrom(
                     backgroundColor: AppColors.red,
@@ -56,7 +65,10 @@ class WithdrawPage extends StatelessWidget {
                   ),
                   child: const Text(
                     Strings.withdrawButton,
-                    style: TextStyle(color: AppColors.white),
+                    style: TextStyle(
+                        color: AppColors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
