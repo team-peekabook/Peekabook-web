@@ -56,6 +56,8 @@ flutter:
   assets:
     - assets/images/ic_logo.png
     - assets/images/ic_kakao_login.png
+    - assets/images/ic_sad.png
+    - assets/images/ic_title_logo.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

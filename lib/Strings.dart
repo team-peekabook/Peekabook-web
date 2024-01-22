@@ -8,4 +8,5 @@ class Strings {
       'https://interesting-door-b57.notion.site/fcb373d7e53642cfb011bf36ef47b131';
   static const String privacyPolicyUrl =
       'https://interesting-door-b57.notion.site/0875e3fa416042e7b0e5c4f556fdc2c3';
+  static const String notRegistered = '앗, 회원이 아니에요.';
 }
