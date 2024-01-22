@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:peeka/appColors.dart';
+import 'package:peeka/colors.dart';
 import 'package:peeka/strings.dart';
+import 'package:peeka/withdraw.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'notRegistered.dart';
@@ -35,7 +36,7 @@ class LoginPage extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => NotRegisteredPage()),
+                              builder: (context) => WithdrawPage()),
                         );
                       },
                       child: Image.asset(

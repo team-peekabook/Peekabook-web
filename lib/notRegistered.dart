@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'appColors.dart';
+import 'colors.dart';
 import 'strings.dart';
 
 class NotRegisteredPage extends StatelessWidget {
